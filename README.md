@@ -1,6 +1,6 @@
-# AI Translation Service
+# AI Translation Service Demo
 
-A backend service for asynchronous, multi-language AI-powered translation, grammar checking, and document translation. Built for a multilingual browser extension supporting 50+ locales.
+A demo of backend service for asynchronous, multi-language AI-powered translation, grammar checking, and document translation. Built for a multilingual browser extension supporting 50+ locales.
 
 ---
 
