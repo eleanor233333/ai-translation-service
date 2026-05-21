@@ -78,10 +78,10 @@ The core design challenge: translation via LLM is slow and non-deterministic. Th
 For document translation, a separate async pipeline runs:
 
 ```text
-CREATE ──▶ EXECUTE ──▶ CHECK ──▶ FINAL_CHECK ──▶ GENERATE
-  │           │                                      │
-parse doc   translate                           upload to
-into nodes  each node                           S3 / OSS
+CREATE──▶ SPLIT ──▶ EXECUTE ──▶ CHECK ──▶ FINAL_CHECK ──▶ GENERATE
+  │                       │                       │
+parse doc             translate                 upload to
+into nodes            each node                  S3 / OSS
 ```
 
 ---
